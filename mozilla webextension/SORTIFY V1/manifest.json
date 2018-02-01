@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Sortify",
+  "description": "Control Youtube play without visiting ",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/icon.png"
+    
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }, 
+  "permissions": [
+	  "tabs"
+  ],
+  "chrome_settings_overrides" : {
+    "homepage": "something.html"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "something.html"
+  }
+
+
+}
